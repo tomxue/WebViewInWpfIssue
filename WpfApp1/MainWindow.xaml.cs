@@ -31,7 +31,7 @@ namespace WpfApp1
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
             this.wv.Source = new Uri("https://m.weibo.cn/search?containerid=100103type%3D1%26q%3D%E4%B8%AD%E5%9B%BD%E6%AF%9B%E8%B1%86%E9%A3%8E%E9%9D%A1%E8%A5%BF%E7%8F%AD%E7%89%99");
-            this.wb.Source = new Uri("http://s.weibo.com/weibo/%23%E5%88%98%E7%9C%9F%E5%8E%BB%E4%B8%96%23&luicode=&lfid=_h5&extparam=c_type%3D36&wm=");
+            this.wb.Source = new Uri("https://s.weibo.com/weibo?q=hello&Refer=SWeibo_box");
         }
     }
 }
